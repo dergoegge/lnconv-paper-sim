@@ -1,0 +1,10 @@
+{
+    "graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"algo": {
+		"name": "lnd_inv",
+		"send_invs": true,
+		"send_batch_updates": false
+	},
+	"end_time": 60
+}

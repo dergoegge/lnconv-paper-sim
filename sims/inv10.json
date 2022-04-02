@@ -1,0 +1,12 @@
+{
+	"graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"algo": {
+		"name": "inv10",
+		"send_invs": true,
+	    "stagger_timer": 10000,
+		"trickle_timer": 0,
+	    "send_batch_updates": false
+	},
+	"end_time": 600
+}

@@ -1,0 +1,9 @@
+{
+	"graph": "./lngraph_2021_07_04__14_00.json",
+	"num_messages": 500,
+	"syncer_conns": 8,
+	"percent_blackholes": 5,
+	"algo": {
+		"name": "5p_blackhole_lnd"
+	}
+}

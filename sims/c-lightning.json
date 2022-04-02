@@ -1,0 +1,12 @@
+{
+	"graph": "./lndgraph2021-10-22.json",
+	"messages": "./ext_gossip12sep.csv",
+	"algo": {
+		"name": "c-lightning",
+		"stagger_timer": 60000,
+		"trickle_timer": 0,
+		"send_invs": false,
+		"send_batch_updates": true
+	},
+	"syncer_conns": 5
+}

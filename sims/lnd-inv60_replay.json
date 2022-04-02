@@ -1,0 +1,15 @@
+{
+	"graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"syncer_conns": 3,
+	"algo": {
+		"name": "lnd-inv60",
+		"trickle_timer": 1000,
+		"stagger_timer": 60000,
+		"send_invs": true,
+		"send_batch_updates": false
+	},
+	"end_time": 3600,
+    "num_payments": 100000,
+    "payment_interval": 3600000
+}

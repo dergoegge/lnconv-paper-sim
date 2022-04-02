@@ -1,0 +1,12 @@
+{
+	"graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"algo": {
+		"name": "minisketch-32",
+		"reconcil_timer": 3500
+	},
+	"syncer_conns": 32,
+	"end_time": 3600,
+    "num_payments": 100000,
+    "payment_interval": 3600000
+}

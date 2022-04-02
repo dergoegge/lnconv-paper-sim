@@ -1,0 +1,10 @@
+{
+	"graph": "./lndgraph2021-10-22.json",
+	"messages": "./gossip_latest.csv",
+	"syncer_conns": 3,
+	"algo": {
+		"name": "lnd"
+	},
+	"end_time": 600,
+	"num_messages": 1000
+}

@@ -1,0 +1,15 @@
+{
+	"graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"algo": {
+		"name": "c-lightning-inv",
+		"stagger_timer": 60000,
+		"trickle_timer": 0,
+		"send_invs": true,
+		"send_batch_updates": false
+	},
+	"syncer_conns": 5,
+	"end_time": 3600,
+    "num_payments": 100000,
+    "payment_interval": 3600000
+}

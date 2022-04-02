@@ -1,0 +1,12 @@
+{
+	"graph": "./lngraph_2021_07_04__14_00.json",
+	"num_messages": 1000,
+	"algo": {
+		"name": "c-lightning",
+		"stagger_timer": 60000,
+		"trickle_timer": 0,
+		"send_invs": false,
+		"send_batch_updates": true
+	},
+	"syncer_conns": 3
+}

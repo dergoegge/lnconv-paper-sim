@@ -1,0 +1,16 @@
+{
+	"graph": "./lngraph-30102021.json",
+	"messages": "./gossip_latest.csv",
+	"syncer_conns": 3,
+	"algo": {
+		"name": "spanning",
+		"spanning_tree": true,
+		"stagger_timer": 100,
+		"trickle_timer": 0,
+		"send_invs": false,
+		"send_batch_updates": true
+	},
+	"end_time": 3600,
+    "num_payments": 100000,
+    "payment_interval": 3600000
+}
